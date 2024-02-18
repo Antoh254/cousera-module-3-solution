@@ -1,0 +1,53 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+.jumbotron {
+    background-color: #f8f8f8; 
+    margin-bottom: 0;
+    padding: 10px; 
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgb(237, 168, 63);
+}
+
+
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent; 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333; 
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent; 
+}
+#text{
+    background-color: bisque;
+    
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        background-color: #f0ce9e;
+        
+    }
+    
+    hr{
+        padding: 0;
+        margin: 0;
+       
+    }
+}
+h2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
